@@ -1,0 +1,387 @@
+
+/*  header*/ 
+
+
+.header {
+    position: relative;
+    z-index: 1004;
+    height: 79px;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.ffix-header {
+    position: fixed !important;
+    height: 79px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 99999;
+    background: #046ea5;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.ffix-header {
+    position: fixed;
+}
+.wrapper {
+    margin: 0 auto;
+    min-width: 980px;
+    max-width: 1680px;
+    height: 100%;
+    padding: 0px 20px;
+    position: relative;
+}
+/*  right uper corner */
+.header .upLinks{
+float: right;
+    width: 100%;
+    text-align: right;
+}
+.header .upLinks .uprLinks{
+    margin: 4px 0 0 0;
+    height: 6px;
+}
+.header .upLinks .uprLinks li{
+list-style: none;
+    display: inline-block;
+}
+
+.header .upLinks .uprLinks a{
+   font-size: 14px;
+    color: #fff;
+    padding: 0 10px 0 0;
+    margin: 0 4px 0 0;
+    position: relative;
+}
+a {
+    background-color: transparent;
+    color: #0c93f3;
+    text-decoration: none;
+    outline: 0;
+}
+a:visited {
+    text-decoration: none;
+    outline: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.header .upLinks .uprLinks> ul > li .actLinks {
+    width: 238px;
+    background: #fff;
+    -webkit-box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.header .upLinks .uprLinks> ul > li .actLinks .actLink-heading {
+    width: 100%;
+    background: #0c93f3;
+    min-height: 60px;
+    color: #fff;
+    position: relative;
+    height: 60px;
+    float: left;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.header .upLinks .uprLinks  > ul > li .actLinks .actLink-heading span {
+    float: left;
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    margin: 12px 12px 0 12px;
+    background: url(http://images.shopclues.com/images/ui/dkt_sprite.png) no-repeat #fff;
+    background-position: -188px -41px;
+}
+
+.header .upLinks .uprLinks > ul > li .actLinks .actLink-heading a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    padding-right: 40px;
+    line-height: 60px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.header .upLinks .uprLinks > ul > li .actLinks ul {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-bottom: 0;
+}
+.header .upLinks .uprLinks> ul > li .actLinks ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.header .upLinks .uprLinks > ul > li .actLinks ul li a {
+    display: inline-block;
+    width: 100%;
+    text-indent: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    padding: 9px 20px;
+}
+/*  logo & search bar  */
+.header .logo{
+display: inline-block;
+    padding: 13px 0 10px 0;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+}
+.header .logo img {
+    width: 165px;
+
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    page-break-inside: avoid;
+    vertical-align: middle;
+}
+.header .search {
+    display: inline-block;
+    width: 55%;
+    position: relative;
+    left: 225px;
+    right: 0;
+    margin: 0 auto;
+    padding: 0;
+    top: 15px;
+}
+.header .search > span {
+    position: relative;
+    display: block;
+}
+.header .search > span input[type="text"] {
+    width: 100%;
+    display: block;
+    background-color: #f2f2f2;
+    height: 39px;
+    padding-bottom: 2px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    text-indent: 70px;
+    font-size: 15px;
+    color: #353535;
+    font-weight: 500;
+    border: none;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+input {
+    line-height: normal;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.header .search > span input[type="submit"] {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 30px;
+    top: 11px;
+    background: url(http://images.shopclues.com/images/ui/dkt_sprite.png) no-repeat -77px -10px;
+    border: none;
+    z-index: 2;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+/*   right corner bottom links*/
+.header .btmLinks{
+float: right;
+    margin: 26px 0 0 0;
+}
+.header .btmLinks> ul > li {
+    list-style: none;
+    margin-right: 21px;
+    float: left;
+    position: relative;
+}
+.header .btmLinks > ul > li a.wishlist-ic{
+
+    width: 22px;
+    background: url(http://images.shopclues.com/images/ui/dkt_sprite.png) no-repeat -104px -11px;
+    height: 20px;
+}
+.header .btmLinks > ul > li > a {
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 500;
+    color: #353535;
+    position: relative;
+}
+.header .btmLinks > ul > li a.cart-ic {
+    width: 25px;
+    background: url(http://images.shopclues.com/images/ui/dkt_sprite.png) no-repeat -168px -11px;
+    height: 24px;
+}
+.header .btmLinks > ul > li a.cart-ic span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #fb760b;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 19px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: #fff solid 3px;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+}
+.header .btmLinks > ul .qCart .hoverContent {
+    right: -18px;
+}
+.header .upLinks .uprLinks> ul> li .hoverContent,
+.header .btmLinks > ul > li .hoverContent {
+    visibility: hidden;
+    opacity: 0;
+    padding-top: 10px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    top: 130%;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+}
+.header .upLinks .uprLinks> ul > li:hover .hoverContent {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+/*   navigation menu  */
+.main_navigation {
+    display: block;
+    border-top: #e8e8e8 solid 0px;
+    text-align: center;
+    position: relative;
+    height: 46px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 104 !important;
+}
+.main_navigation .ffix {
+    position: fixed;
+    width: 100%;
+	height:44px;
+    z-index: 105;
+    background: #f8f8f8;
+    border-bottom: #e8e8e8 solid 1px;
+    -webkit-transition: top 0.2s ease-in-out;
+    -moz-transition: top 0.2s ease-in-out;
+    -ms-transition: top 0.2s ease-in-out;
+    -o-transition: top 0.2s ease-in-out;
+}
+.nav-down {
+    top: 79px;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.main_navigation .wrapper {
+    max-width: 980px;
+}
+
+.main_navigation .wrapper > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+.main_navigation .wrapper > ul > li > a {
+    color: #353535;
+    padding: 13px 15px;
+    display: block;
+    position: relative;
+}
+.main_navigation .wrapper > ul > li > a:before, .main_navigation .wrapper > ul > li > a:after {
+    width: 0%;
+    content: "";
+    height: 2px;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+    background: #00bc71;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.main_navigation .wrapper > ul > li > a:before {
+    right: 50%;
+}
+.main_navigation .wrapper > ul > li > a:after {
+    left: 50%;
+}
+
+
+/*          */
+
+
