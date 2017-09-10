@@ -1,6 +1,9 @@
 {
   "name": "angular-tour-of-heroes",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.11.2"
+  }
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -12,8 +15,6 @@
   },
   "private": true,
   "dependencies": {
-	"angular-cli": "1.0.0-beta.28.3",
-	"start": "node Server.js",
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.2.4",
     "@angular/compiler": "^4.2.4",
