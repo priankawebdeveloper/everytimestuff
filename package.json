@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/priankawebdeveloper/everytimestuff/issues"
   },
+  "engines": {
+    "node": "6.11.2"
+  }
   "homepage": "https://github.com/priankawebdeveloper/everytimestuff#readme"
 }
