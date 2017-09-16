@@ -1,31 +1,7 @@
-/*  Navbar STYLING  */  
-	.navbar-default, #navbar {
-		background-image: none;
-	   background-color:#0e6998 /*#640fb1*/;
-	   }
-	.navbar-default .navbar-brand , .navbar-default .navbar-nav li a {
-		color:white;
-		}
-   
- .row{margin-top:10%;} 
- .navbar-form{
-    margin-top:24px;
- }
- input[type="submit"] {
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    left: 28%;
-    top: 51%;
-    background: url(http://images.shopclues.com/images/ui/dkt_sprite.png) no-repeat -77px -10px;
-    border: none;
-    z-index: 2;
-}
- 
-/*  header*/ 
+/*  navbar*/ 
 
 
-.header {
+.navbar {
     position: relative;
     z-index: 1004;
     height: 79px;
@@ -36,7 +12,7 @@
     top: 0;
 }
 
-.ffix-header {
+.ffix-navbar {
     position: fixed !important;
     height: 79px;
     left: 0;
@@ -47,7 +23,7 @@
     border-bottom: 1px solid #e8e8e8;
 }
 
-.ffix-header {
+.ffix-navbar {
     position: fixed;
 }
 .wrapper {
@@ -59,21 +35,21 @@
     position: relative;
 }
 /*  right uper corner */
-.header .upLinks{
+.navbar .upLinks{
 float: right;
     width: 100%;
     text-align: right;
 }
-.header .upLinks .uprLinks{
+.navbar .upLinks .uprLinks{
     margin: 4px 0 0 0;
     height: 6px;
 }
-.header .upLinks .uprLinks li{
+.navbar .upLinks .uprLinks li{
 list-style: none;
     display: inline-block;
 }
 
-.header .upLinks .uprLinks a{
+.navbar .upLinks .uprLinks a{
    font-size: 14px;
     color: #fff;
     padding: 0 10px 0 0;
@@ -94,7 +70,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-.header .upLinks .uprLinks> ul > li .actLinks {
+.navbar .upLinks .uprLinks> ul > li .actLinks {
     width: 238px;
     background: #fff;
     -webkit-box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.2);
@@ -107,7 +83,7 @@ ul {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
-.header .upLinks .uprLinks> ul > li .actLinks .actLink-heading {
+.navbar .upLinks .uprLinks> ul > li .actLinks .actLink-heading {
     width: 100%;
     background: #0c93f3;
     min-height: 60px;
@@ -122,7 +98,7 @@ ul {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
-.header .upLinks .uprLinks  > ul > li .actLinks .actLink-heading span {
+.navbar .upLinks .uprLinks  > ul > li .actLinks .actLink-heading span {
     float: left;
     width: 36px;
     height: 36px;
@@ -138,7 +114,7 @@ ul {
     background-position: -188px -41px;
 }
 
-.header .upLinks .uprLinks > ul > li .actLinks .actLink-heading a {
+.navbar .upLinks .uprLinks > ul > li .actLinks .actLink-heading a {
     font-size: 14px;
     color: #fff;
     font-weight: 500;
@@ -150,7 +126,7 @@ ul {
     overflow: hidden;
     white-space: nowrap;
 }
-.header .upLinks .uprLinks > ul > li .actLinks ul {
+.navbar .upLinks .uprLinks > ul > li .actLinks ul {
     display: inline-block;
     width: 100%;
     padding: 0;
@@ -159,13 +135,13 @@ ul {
 ul ul, ol ul, ul ol, ol ol {
     margin-bottom: 0;
 }
-.header .upLinks .uprLinks> ul > li .actLinks ul li {
+.navbar .upLinks .uprLinks> ul > li .actLinks ul li {
     list-style-type: none;
     display: inline-block;
     width: 100%;
     position: relative;
 }
-.header .upLinks .uprLinks > ul > li .actLinks ul li a {
+.navbar .upLinks .uprLinks > ul > li .actLinks ul li a {
     display: inline-block;
     width: 100%;
     text-indent: 40px;
@@ -175,14 +151,14 @@ ul ul, ol ul, ul ol, ol ol {
     padding: 9px 20px;
 }
 /*  logo & search bar  */
-.header .logo{
+.navbar .logo{
 display: inline-block;
     padding: 13px 0 10px 0;
     margin-top: 10px;
     position: absolute;
     z-index: 1;
 }
-.header .logo img {
+.navbar .logo img {
     width: 165px;
 
 }
@@ -193,7 +169,7 @@ img {
     page-break-inside: avoid;
     vertical-align: middle;
 }
-.header .search {
+.navbar .search {
     display: inline-block;
     width: 55%;
     position: relative;
@@ -203,11 +179,11 @@ img {
     padding: 0;
     top: 15px;
 }
-.header .search > span {
+.navbar .search > span {
     position: relative;
     display: block;
 }
-.header .search > span input[type="text"] {
+.navbar .search > span input[type="text"] {
     width: 100%;
     display: block;
     background-color: #f2f2f2;
@@ -247,7 +223,7 @@ input, button, select, textarea {
     font-size: inherit;
     line-height: inherit;
 }
-.header .search > span input[type="submit"] {
+.navbar .search > span input[type="submit"] {
     position: absolute;
     width: 19px;
     height: 19px;
@@ -263,35 +239,35 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     cursor: pointer;
 }
 /*   right corner bottom links*/
-.header .btmLinks{
+.navbar .btmLinks{
 float: right;
     margin: 26px 0 0 0;
 }
-.header .btmLinks> ul > li {
+.navbar .btmLinks> ul > li {
     list-style: none;
     margin-right: 21px;
     float: left;
     position: relative;
 }
-.header .btmLinks > ul > li a.wishlist-ic{
+.navbar .btmLinks > ul > li a.wishlist-ic{
 
     width: 22px;
     background: url(http://images.shopclues.com/images/ui/dkt_sprite.png) no-repeat -104px -11px;
     height: 20px;
 }
-.header .btmLinks > ul > li > a {
+.navbar .btmLinks > ul > li > a {
     display: inline-block;
     line-height: 24px;
     font-weight: 500;
     color: #353535;
     position: relative;
 }
-.header .btmLinks > ul > li a.cart-ic {
+.navbar .btmLinks > ul > li a.cart-ic {
     width: 25px;
     background: url(http://images.shopclues.com/images/ui/dkt_sprite.png) no-repeat -168px -11px;
     height: 24px;
 }
-.header .btmLinks > ul > li a.cart-ic span {
+.navbar .btmLinks > ul > li a.cart-ic span {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -312,11 +288,11 @@ float: right;
     top: -9px;
     right: -9px;
 }
-.header .btmLinks > ul .qCart .hoverContent {
+.navbar .btmLinks > ul .qCart .hoverContent {
     right: -18px;
 }
-.header .upLinks .uprLinks> ul> li .hoverContent,
-.header .btmLinks > ul > li .hoverContent {
+.navbar .upLinks .uprLinks> ul> li .hoverContent,
+.navbar .btmLinks > ul > li .hoverContent {
     visibility: hidden;
     opacity: 0;
     padding-top: 10px;
@@ -329,7 +305,7 @@ float: right;
     right: 0;
     z-index: 9;
 }
-.header .upLinks .uprLinks> ul > li:hover .hoverContent {
+.navbar .upLinks .uprLinks> ul > li:hover .hoverContent {
     visibility: visible;
     opacity: 1;
     top: 100%;
@@ -405,6 +381,29 @@ float: right;
 }
 
 
-/*          */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

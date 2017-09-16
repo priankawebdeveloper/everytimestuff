@@ -1,10 +1,46 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+	    <div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" style=" font-size:18px;font-weight:300; margin-top:15px;"> EVERYTIME <span style="font-family:sans-sarif;"> stuff </span></a>
+		</div> 
+		
+		<div  id="navbar" class="navbar-collapse collapse ">
+        <!--  <ul class="nav navbar-nav navbar-right">
+		    <li><a href="#">Contact us</a></li>
+			<li><a href="#">Settings</a></li>
+			<li><a href="#">Profile</a></li>
+			<li><a href="#">Help</a></li>
+           </ul>  -->
+		   <div class="col-sm-3 col-md-3">
+			<form class="navbar-form" role="search" id="navBarSearchForm">
+			
+				<input type="text"  class="form-control" placeholder="What are you looking for?" name="q">
+				<input type="submit" value>
+				
+			
+			</form>
+		</div>
+     
+        </div>
+		
+	</div>
+</nav> 
+
+<!--
+
 <div class="header">
       <div class="ffix-header removeAbc head-down">
 	     <div class="wrapper">
 		    <div class="upLinks">
 			   <div class="uprLinks">
 			      <ul>
-				     <li id="sign-in"><a href="#">Signup</a>
+				 <!--    <li id="sign-in"><a href="#">Signup</a>
 					    <div class="hoverContent">
 						   <div class="actLinks">
 						      <div class="actLink-heading">
@@ -21,12 +57,16 @@
 						   </div>
 						</div>
 					 </li>
-					 <li id=""><a href="#">Log In</a></li>
+					 <li id=""><a href="#">Log In</a></li>   
 				  </ul>
 			   </div>
 			</div>
 		    <div class="logo">
-			<a href="#"><img src="assets/images/logo2.png" style="height:52px; margin-top:-4px; margin-left:6px;"></a>
+			<a href="#" style="color:white; font-size:18px;">
+			<!--<img src="assets/images/logo2.png" style="height:52px; margin-top:-4px; margin-left:6px;">  
+			EveryTimeStuff
+			</a>  
+		
 			</div>
 		    <div class="search">
 			   <span id="search">
@@ -41,15 +81,15 @@
 					 <div class="hoverContent"></div>
 				   </li>
 				</ul>
-			</div>
+			</div>  
 		 </div>
 	  </div>
    
    </div>
-   
+   --> 
  <!--       Navigation         --> 
 <div class="main_navigation">
-	<div class="ffix nav-down">
+	
 	   <div class="wrapper">
 	      <ul>
 	       <li><a href="#">Men</a></li>
@@ -60,13 +100,12 @@
 		   <li><a href="#">Electronics</a></li>
           </ul>
 
-	   </div>
+	  
 
 	</div>
 </div> 
 
 <!-- body-->
-<a routerLink="/heroes" routerLinkActive="active">Heroes</a>
 
 <router-outlet></router-outlet>
 

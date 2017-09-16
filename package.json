@@ -1,5 +1,5 @@
 {
-  "name": "angular-tour-of-heroes",
+  "name": "every-time-stuff1",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -12,8 +12,6 @@
   },
   "private": true,
   "dependencies": {
-	"angular-cli": "1.0.0-beta.28.3",
-	"start": "node Server.js",
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.2.4",
     "@angular/compiler": "^4.2.4",
